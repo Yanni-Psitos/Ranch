@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GeoQuizReal</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="toast_false">You answered incorrectly!!</string>
+    <string name="toast_true">You answered correctly!!</string>
+</resources>
