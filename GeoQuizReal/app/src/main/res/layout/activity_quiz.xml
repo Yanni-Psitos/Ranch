@@ -4,12 +4,22 @@
     android:layout_width="match_parent"
     android:gravity="center"
     android:orientation="vertical">
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="24dp"-->
+        <!--android:gravity="center"/>-->
     <TextView
+        android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Constantinople is the largest city in Turkey"
         android:padding="24dp"
-        android:gravity="center"/>
+        />
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
